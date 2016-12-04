@@ -11,7 +11,7 @@ public class HelloGit {
 	public static double sqrt(double n){
 		
 		double c = n;    	// current estimate
-		double er = 1e-13; // desired precision
+		double er = 1e-13; 	// desired precision
 		
 		while ( Math.abs(c - n/c) > er * c)
 			c = (n/c + c) / 2.0;
