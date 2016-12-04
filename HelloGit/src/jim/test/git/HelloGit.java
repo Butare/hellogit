@@ -4,7 +4,8 @@ public class HelloGit {
 
 	public static void main(String[] args) {
 		// greeting okay
-		System.out.println("Value :"+sqrt(4.0));
+		double test = 4.0;
+		System.out.println("Value :"+sqrt(test));
 		
 	}
 	
