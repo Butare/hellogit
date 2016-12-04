@@ -6,5 +6,17 @@ public class HelloGit {
 		// greeting okay
 		System.out.println("Hello, Git!");
 	}
+	
+	// newton's square root calculation
+	public static double sqrt(double n){
+		
+		double c = n;    	// current estimate
+		double er = 1e-13; // desired precision
+		
+		while ( Math.abs(c - n/c) > er * c)
+			c = (n/c + c) / 2.0;
+		
+		return c;
+	}
 
 }
