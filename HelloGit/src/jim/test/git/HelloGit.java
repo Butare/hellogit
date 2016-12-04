@@ -11,8 +11,8 @@ public class HelloGit {
 	// newton's square root calculation
 	public static double sqrt(double n){
 		
-		double c = n;    	// current estimate
-		double er = 1e-16; 	// desired precision
+		double c = n;    		// current estimate
+		double er = 1e-16; 		// desired precision
 		
 		while ( Math.abs(c - n/c) > er * c)
 			c = (n / c + c) / 2.0;
