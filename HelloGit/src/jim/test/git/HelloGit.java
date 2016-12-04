@@ -3,8 +3,8 @@ package jim.test.git;
 public class HelloGit {
 
 	public static void main(String[] args) {
-		// greeting okay
-		double test = 4.0;
+		
+		double test = 4.0;		// testing variable
 		System.out.println("Value :"+sqrt(test));
 		
 	}
